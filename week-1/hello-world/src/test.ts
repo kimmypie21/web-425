@@ -1,4 +1,13 @@
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
+/*
+============================================
+; Title:  Assignment 1.3
+; Author: Professor Krasso
+; Date: July 2020
+; Modified By: Kimberly Pierce
+; Description: Angular CLI
+;===========================================
+*/
 
 import 'zone.js/dist/zone-testing';
 import { getTestBed } from '@angular/core/testing';

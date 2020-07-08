@@ -1,3 +1,13 @@
+/*
+============================================
+; Title:  Assignment 1.3
+; Author: Professor Krasso
+; Date: July 2020
+; Modified By: Kimberly Pierce
+; Description: Angular CLI
+;===========================================
+*/
+
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.

@@ -2,6 +2,16 @@
 // Protractor configuration file, see link for more information
 // https://github.com/angular/protractor/blob/master/lib/config.ts
 
+/*
+============================================
+; Title:  Assignment 1.3
+; Author: Professor Krasso
+; Date: July 2020
+; Modified By: Kimberly Pierce
+; Description: Angular CLI
+;===========================================
+*/
+
 const { SpecReporter, StacktraceOption } = require('jasmine-spec-reporter');
 
 /**

@@ -1,3 +1,13 @@
+/*
+============================================
+; Title:  Assignment 1.3
+; Author: Professor Krasso
+; Date: July 2020
+; Modified By: Kimberly Pierce
+; Description: Angular CLI
+;===========================================
+*/
+
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
