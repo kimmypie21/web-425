@@ -8,12 +8,15 @@
 ;===========================================
 */
 
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+//import nav components
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 
+//specify route path for nav components
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'contact', component: ContactComponent},
