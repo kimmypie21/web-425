@@ -22,7 +22,7 @@ Description: Assignment 2.3 Data Binding
 <div class="container"><br>
 
   <h2>{{ assignment }}</h2><br>
-  <div class="row">
+  <div class="row" *ngIf ="isLoggedIn; else showError">
 
     <div class="col-sm-6">
       <app-my-image></app-my-image>
@@ -31,4 +31,14 @@ Description: Assignment 2.3 Data Binding
       <app-my-details></app-my-details>
     </div>
   </div>
+
+  <ng-template #showError>
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 class="alert alert-danger">
+          You are not authorized to view this content.
+        </h4>
+      </div>
+    </div>
+  </ng-template>
 </div>
