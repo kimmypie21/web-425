@@ -11,6 +11,7 @@
 
 import { Component, OnInit } from '@angular/core';
 
+//export class Person
 export default class Person {
   fullName: string;
   favoriteFood: string;
@@ -38,7 +39,7 @@ export default class Person {
 export class MyDetailsComponent implements OnInit {
 
   myProfile: Person;
-
+  //create new constructor of Person class
   constructor() {
     this.myProfile = new Person ("Kimberly Pierce", "Carbs", "Purple");
     this.myProfile.toString();
