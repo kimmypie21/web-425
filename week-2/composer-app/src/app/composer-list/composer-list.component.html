@@ -6,4 +6,26 @@ Modified By: Kimberly Pierce
 Description: Assignment 2.4 Routing in Action
 -->
 
-<p>composer-list works!</p>
+<div class="container">
+
+  <div class="row" id="composer-list">
+    <div class="col">
+      <table class="table table-hover ">
+        <thead class="table-info">
+          <tr>
+            <th scope="col">Full Name</th>
+            <th scope="col">Genre</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let composer of composers"><!--iterate over composers array-->
+          <tr>
+            <td>{{ composer.fullName }}</td>
+            <td>{{ composer.genre }}</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
