@@ -1,0 +1,16 @@
+<!--
+Title: Assignment 3.3 Passing Data to Routes, Part 2
+Author: Kimberly Pierce
+Date: July 2020
+Modified By: Kimberly Pierce
+Description: Assignment 3.3 Passing Data to Routes, Part 2
+-->
+
+<!--bind to new Person constructor myProfile -->
+<ul class="list-group">
+  <li class="list-group-item">Name: {{myProfile.fullName}}</li>
+  <li class="list-group-item">Favorite Food: {{myProfile.favoriteFood}}</li>
+  <li class="list-group-item">Favorite Color: {{myProfile.favoriteColor}}</li>
+  <li class="list-group-item">Keywords: <span *ngFor="let word of myProfile.keywords">{{ word }}</span></li>
+</ul>
+
