@@ -1,0 +1,14 @@
+/*
+============================================
+; Title: Assignment 3.4 Guarding Routes
+; Author: Kimberly Pierce
+; Date: July 2020
+; Modified By: Kimberly Pierce
+; Description: Assignment 3.4 Guarding Routes
+;===========================================
+*/
+
+
+export const environment = {
+  production: true
+};

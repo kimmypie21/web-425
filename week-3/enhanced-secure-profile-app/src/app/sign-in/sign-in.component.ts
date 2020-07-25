@@ -1,12 +1,13 @@
 /*
 ============================================
-; Title: Assignment 3.3 Passing Data to Routes, Part 2
+; Title: Assignment 3.4 Guarding Routes
 ; Author: Kimberly Pierce
 ; Date: July 2020
 ; Modified By: Kimberly Pierce
-; Description: Assignment 3.3 Passing Data to Routes, Part 2
+; Description: Assignment 3.4 Guarding Routes
 ;===========================================
 */
+
 
 
 import { Component, OnInit } from '@angular/core';
@@ -28,6 +29,7 @@ export class SignInComponent implements OnInit {
 
   signin(){
     this.isLoggedIn = true;
+
     this.router.navigate(['/home'], { queryParams: {isLoggedIn: this.isLoggedIn}, skipLocationChange: true})
   }
 
