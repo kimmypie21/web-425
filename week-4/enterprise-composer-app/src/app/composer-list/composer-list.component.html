@@ -1,0 +1,41 @@
+<!--
+/*
+Title: Assignment 4.4
+Author: Kimberly Pierce
+Date: July 2020
+Modified By: Kimberly Pierce
+Description: Assignment 4.4 - Async Pipe
+*/
+-->
+
+<div class="container">
+  <div class="row" id="composer-list">
+    <div class="col">
+      <div class="textSearch">
+        <input type="text" id="txtSearch" class="form-control" placeholder="Search By Name" [formControl]="txtSearchControl">
+      </div>
+      <table class="table table-hover">
+        <thead class="table-info">
+          <tr>
+            <th scope="col">Composer ID</th>
+            <th scope="col">Full Name</th>
+            <th scope="col">Genre</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let composer of composers| async"><!--iterate over composers array-->
+          <tr>
+            <td>
+              <a routerLink = "/composer-details/{{ composer.composerId }}">
+                {{ composer.composerId }}
+              </a>
+            </td>
+            <td>{{ composer.fullName }}</td>
+            <td>{{ composer.genre }}</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
