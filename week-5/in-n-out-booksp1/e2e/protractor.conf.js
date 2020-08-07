@@ -1,3 +1,13 @@
+/*
+============================================
+; Title: Assignment 5.2
+; Author: Kimberly Pierce
+; Date: August 2020
+; Modified By: Kimberly Pierce
+; Description: Assignment 5.2 Navigation & Layout
+;===========================================
+*/
+
 // @ts-check
 // Protractor configuration file, see link for more information
 // https://github.com/angular/protractor/blob/master/lib/config.ts

@@ -1,3 +1,13 @@
+/*
+============================================
+; Title: Assignment 5.2
+; Author: Kimberly Pierce
+; Date: August 2020
+; Modified By: Kimberly Pierce
+; Description: Assignment 5.2 Navigation & Layout
+;===========================================
+*/
+
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
 
 import 'zone.js/dist/zone-testing';

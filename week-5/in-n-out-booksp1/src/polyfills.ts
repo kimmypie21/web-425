@@ -1,3 +1,13 @@
+/*
+============================================
+; Title: Assignment 5.2
+; Author: Kimberly Pierce
+; Date: August 2020
+; Modified By: Kimberly Pierce
+; Description: Assignment 5.2 Navigation & Layout
+;===========================================
+*/
+
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.

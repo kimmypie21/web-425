@@ -9,12 +9,11 @@
 */
 
 
-.logo{
-  margin-top: 5px;
-}
+export interface IBook{
+  isbn:string;
+  title: string;
+  description: string;
+  numOfPages: number;
+  authors: Array<string>;
 
-.main-container{
-  padding-top: 25px;
-  width: 80%;
-  margin: 0 auto;
 }
