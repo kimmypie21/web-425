@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "in-n-out-booksp2": {
+    "in-n-out-booksp3": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/in-n-out-booksp2",
+            "outputPath": "dist/in-n-out-booksp3",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "in-n-out-booksp2:build"
+            "browserTarget": "in-n-out-booksp3:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "in-n-out-booksp2:build:production"
+              "browserTarget": "in-n-out-booksp3:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "in-n-out-booksp2:build"
+            "browserTarget": "in-n-out-booksp3:build"
           }
         },
         "test": {
@@ -115,18 +115,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "in-n-out-booksp2:serve"
+            "devServerTarget": "in-n-out-booksp3:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "in-n-out-booksp2:serve:production"
+              "devServerTarget": "in-n-out-booksp3:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "in-n-out-booksp2",
+  "defaultProject": "in-n-out-booksp3",
   "cli": {
     "analytics": false
   }

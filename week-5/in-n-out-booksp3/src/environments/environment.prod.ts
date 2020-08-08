@@ -1,18 +1,14 @@
 /*
 ============================================
-; Title: Assignment 5.2
+; Title: Assignment 5.4
 ; Author: Kimberly Pierce
 ; Date: August 2020
 ; Modified By: Kimberly Pierce
-; Description: Assignment 5.2 Navigation & Layout
+; Description: Assignment Exercise 5.4 Dialogs
 ;===========================================
 */
 
-.about-columns {
-  margin: 2%;
-}
 
-.about-columns img{
-  max-width: 100%;
-  margin-top: 2%;
-}
+export const environment = {
+  production: true
+};
