@@ -1,0 +1,20 @@
+/*
+============================================
+; Title: Exercise 6.2 Output Properties
+; Author: Kimberly Pierce
+; Date: August 2020
+; Modified By: Kimberly Pierce
+; Description: Exercise 6.2 Output Properties
+;===========================================
+*/
+
+
+.logo{
+  margin-top: 5px;
+}
+
+.main-container{
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
