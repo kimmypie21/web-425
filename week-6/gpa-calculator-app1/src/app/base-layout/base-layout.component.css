@@ -1,0 +1,19 @@
+/*
+============================================
+; Title: Exercise 6.3 Layouts
+; Author: Kimberly Pierce
+; Date: August 2020
+; Modified By: Kimberly Pierce
+; Description: Exercise 6.3 Layouts
+;===========================================
+*/
+
+.logo{
+  margin-top: 5px;
+}
+
+.main-container{
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
